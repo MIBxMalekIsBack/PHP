@@ -1,0 +1,17 @@
+body>div{
+	margin:30;
+}
+
+.bye{
+	width:400px;
+	height:120px;
+	background-color:skyblue;
+	margin:40 auto;
+	margin-top:80px;
+	padding-top:10px;
+	padding-left:0px;
+	border-radius:15px;
+	border-radius:15px;
+	color:black;
+	font-weight:bold
+}

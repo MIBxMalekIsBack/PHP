@@ -1,0 +1,44 @@
+.aa{
+	width:260px;
+	height:395px;
+	background-color:rgb(105,105,105);
+	margin:0 auto;
+	margin-top:40px;
+	padding-top:10px;
+	padding-left:50px;
+	border:0;
+	border-radius:5px;
+	color:white;
+	font-weight:bolder;
+}
+
+input[type="text"]{
+	display:block;
+	width: 200px;
+	height: 35px;
+	padding:10px;
+	font-size:inherit;
+	background:#FAF6D9;
+	border:0;
+	border-radius:5px;
+	
+}
+input[type="password"]{
+	display:block;
+	width: 200px;
+	height: 35px;
+	padding:10px;
+	font-size:inherit;
+	background:#FAF6D9;
+	border:0;
+	border-radius:5px;
+	
+}
+input[type="submit"]{
+	background-color:skyblue;
+	width:100px;
+	height:35px;
+	border:0;
+	border-radius:5px;
+	font-weight:bolder;
+}

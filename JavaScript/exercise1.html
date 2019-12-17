@@ -1,0 +1,32 @@
+<script>
+
+var count =1;
+var counter1=0, number1=0;
+var high = 0,low = 0;
+var num1 = 0,num2 = 0;
+
+var counter = prompt ("Enter how many time want to enter");
+var counter = parseInt(counter);
+
+while (count <= counter){
+	var number = prompt("Enter an integer");
+	var number = parseInt(number);
+	if (number > 5)
+	{
+		high = high + number;
+		num1++;
+	}
+	else 
+	{	
+		low = low + number;
+		num2++;
+	}	
+		
+	count++;
+}
+
+document.writeln("Total for integer that less than 5: "+low);
+document.writeln("The number of <=5 is : "+num2);
+document.writeln("Total for integer that more than 5: "+high)
+document.writeln("The number of >=5 is : "+low)
+</script>

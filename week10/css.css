@@ -1,0 +1,20 @@
+body {background:yellow;}
+.pa {padding:30px;} /* all */
+.pb {padding:30px 60px;} /* top-bottom left-right */
+.pc {padding:30px 5px 190px;} /* top left-right bottom */
+.pd {padding:30px 5px 190px 50px} /* top right bottom left */
+.pe {padding-top: 30px;} /* top */
+.ba {border-color: #ff0000;}
+.bb {border-style:solid;} /* dotted|dashed|double|ridge|inset|outset */
+.bd {border-style:groove;}
+.be {border-width:10px;}/* thin|medium|thick */
+.ma {margin:50px;} /** all */
+.mb {margin:10px 20px;} /* top-bottom left-right */
+.f {float:right;}
+body {background-image:./image/manu.png; /* from man u wiki */
+	  background-position:bottom center; /* top|center left|right */
+	  background-attachement:fixed; /* scrolled */
+	  background-repeat:no repeat; /* repeat-x|repeat-y|repeat-all */
+	  background-size:100px 100px;} /* width height */
+table {font-family:tahoma; font-size:12px;}
+th {background:green;color:white
